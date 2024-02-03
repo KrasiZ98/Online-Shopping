@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+.favorite-page {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+.favorite-product {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    
+}
+
+.favorite-card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.fav-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fav-image {
+    width: 40%;
+    padding: 20px;
+}
+
+.fav-image img {
+    width: 50%;
+    height: 150px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.qty-btn {
+    background: none;
+    border: none;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+.icon-qty:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+    font-size: 13px;
+    margin-top: 13px;    
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+.delete-btn:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+}
+
+.price {
+    position: relative;
+    left: 900px;
+    bottom:  110px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
